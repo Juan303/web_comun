@@ -1,0 +1,32 @@
+.cookietool-message {
+	position:fixed;
+	z-index:99999;
+	width:100%;
+	padding:3em;
+	text-align:center;
+
+	background-color:#FFFFFF;
+/*	background-image:url(/imagenes/fondos/fondo-blanco-75.png);
+	background-repeat:repeat;
+	background-position:0 0;*/
+	color:#333333;
+
+	-webkit-box-shadow:0 0 12px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:0 0 2px rgba(0, 0, 0, 0.75);
+	box-shadow:0 0 12px rgba(0, 0, 0, 0.75);
+
+}
+.cookietool-message-top {
+	border-bottom:1px solid #DDDDDD;
+/*	border-bottom:1px solid #FFFFFF;*/
+	top:0;
+}
+.cookietool-message-bottom {
+	border-top:1px solid #DDDDDD;
+/*	border-top:1px solid #FFFFFF;*/
+	bottom:0;
+}
+.cookietool-message p {
+	margin:0;
+	margin-bottom:3em;
+}
